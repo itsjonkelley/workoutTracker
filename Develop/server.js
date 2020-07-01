@@ -12,5 +12,5 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const databaseUrl = "notetaker";
-const collections = ["notes"];
+const databaseUrl = "workout";
+const collections = ["exercises"];
